@@ -1,0 +1,26 @@
+{
+  "name": "elm-devmeetings-presentation",
+  "version": "1.0.0",
+  "description": "This project is meant to be run with the slide generator.",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snesi/elm-devmeetings-slides.git"
+  },
+  "keywords": [
+    "elm",
+    "devmeetings",
+    "slides",
+    "presentation",
+    "workshop"
+  ],
+  "author": "David G. Shannon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snesi/elm-devmeetings-slides/issues"
+  },
+  "homepage": "https://github.com/Snesi/elm-devmeetings-slides#readme"
+}
