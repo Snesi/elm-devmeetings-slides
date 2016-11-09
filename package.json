@@ -1,0 +1,33 @@
+{
+  "name": "elm-devmeetings-slides",
+  "version": "1.0.0",
+  "description": "These are slides for the Elm devmeetings workshop",
+  "main": "bundle.js",
+  "dependencies": {
+    "elm": "^0.17.1"
+  },
+  "devDependencies": {
+    "elm": "^0.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "elm:make": "elm make ./Main.elm --output ./bundle.js",
+    "elm:package": "elm package",
+    "elm:reactor": "elm reactor" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snesi/elm-devmeetings-slides.git"
+  },
+  "keywords": [
+    "Elm",
+    "devmeetings",
+    "workshop"
+  ],
+  "author": "David G. Shannon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snesi/elm-devmeetings-slides/issues"
+  },
+  "homepage": "https://github.com/Snesi/elm-devmeetings-slides#readme"
+}
