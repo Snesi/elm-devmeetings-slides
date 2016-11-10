@@ -31,8 +31,18 @@ elmFeatures =
 main = 
     div [ class "container" ]
         [ h1 [ class "text-center" ] [ text "Bienvenidos al Elm Workshop"]
-        , p [] [ text "A continuación... "]
-        , ul []
+        , img 
+            [ style [("margin", "0 auto")]
+            , class "img-responsive"
+            , src "http://seeklogo.com/images/E/elm-logo-9DEF2A830B-seeklogo.com.png"
+            ][]
+        , p [ class "text-center" ] [ text "A continuación... "]
+        , ul 
+            [ style 
+                [ ("max-width", "145px")
+                , ("margin", "0 auto")
+                ] 
+            ]
             [ li [] [ text "Valores en Elm" ]
             , li [] [ text "Funciones" ] 
             , li [] [ text "Listas" ]

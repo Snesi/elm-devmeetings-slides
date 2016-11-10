@@ -7778,9 +7778,25 @@ var _user$project$Main$main = {
 						_elm_lang$html$Html$text('Bienvenidos al Elm Workshop')
 					])),
 				A2(
+				_elm_lang$html$Html$img,
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html_Attributes$style(
+						_elm_lang$core$Native_List.fromArray(
+							[
+								{ctor: '_Tuple2', _0: 'margin', _1: '0 auto'}
+							])),
+						_elm_lang$html$Html_Attributes$class('img-responsive'),
+						_elm_lang$html$Html_Attributes$src('http://seeklogo.com/images/E/elm-logo-9DEF2A830B-seeklogo.com.png')
+					]),
+				_elm_lang$core$Native_List.fromArray(
+					[])),
+				A2(
 				_elm_lang$html$Html$p,
 				_elm_lang$core$Native_List.fromArray(
-					[]),
+					[
+						_elm_lang$html$Html_Attributes$class('text-center')
+					]),
 				_elm_lang$core$Native_List.fromArray(
 					[
 						_elm_lang$html$Html$text('A continuación... ')
@@ -7788,7 +7804,14 @@ var _user$project$Main$main = {
 				A2(
 				_elm_lang$html$Html$ul,
 				_elm_lang$core$Native_List.fromArray(
-					[]),
+					[
+						_elm_lang$html$Html_Attributes$style(
+						_elm_lang$core$Native_List.fromArray(
+							[
+								{ctor: '_Tuple2', _0: 'max-width', _1: '145px'},
+								{ctor: '_Tuple2', _0: 'margin', _1: '0 auto'}
+							]))
+					]),
 				_elm_lang$core$Native_List.fromArray(
 					[
 						A2(
